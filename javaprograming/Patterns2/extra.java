@@ -1,7 +1,7 @@
 public class extra {
 
     public static void main(String[] args) {
-        int n=5;
+        int n=5;kj
         int curr_num = 1;
         for(int row = 1; row<=n; row++) {
         int num_space = n - row;
