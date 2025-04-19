@@ -4,3 +4,4 @@ git add .
 git commit -m "Daily DSA practice update"
 git push origin main
 pause
+git add .
