@@ -1,4 +1,6 @@
-public class selection {
+package sorting.selectionsort;
+
+ public class selection {
 
     public static void fun(int arr[]) {
         for(int i = 0; i < arr.length - 1; i++) {
