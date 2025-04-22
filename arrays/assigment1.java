@@ -3,21 +3,21 @@ import java.util.Scanner;
 
 public class assigment1 {
 
-    public boolean fun(int arr[])
+    public static boolean funn(int arr[])
     {
 for(int i=0;i<arr.length-1;i++)
 {
-    for(int j=i+1;j<arr.length-1;j++)
+    for(int j=i+1;j<arr.length;j++)
     {
         if(arr[i]==arr[j])
         {
             return true;
-            break;
+            
         }
     }
-    return false;
 }
 
+return false;
 
 
     }
@@ -25,6 +25,6 @@ for(int i=0;i<arr.length-1;i++)
     }
     public static void main(String[] args) {
         int arr[] = {1,3,6,9,56,32,3,1};
-        fun(arr);
+        
+        System.out.println(funn(arr));
     }
-}
